@@ -1,0 +1,2 @@
+; extends
+("constexpr") @keyword.modifier
