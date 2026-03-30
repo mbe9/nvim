@@ -30,6 +30,10 @@ vim.g.clipboard = {
   },
 }
 
+-- Set terminal title to project/file
+vim.opt.title = true
+vim.opt.titlestring = "%(%{fnamemodify(getcwd(),':t')}%) - %t"
+
 -- Indentation
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4

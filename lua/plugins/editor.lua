@@ -1,4 +1,21 @@
 return {
+    -- Completion: no auto-insert on browse, no ghost text
+    {
+        "saghen/blink.cmp",
+        opts = {
+            completion = {
+                list = {
+                    selection = {
+                        auto_insert = false,
+                    },
+                },
+                ghost_text = {
+                    enabled = false,
+                },
+            },
+        },
+    },
+
     -- Disable lazygit
     { "folke/snacks.nvim",      opts = { lazygit = { enabled = false } } },
 
