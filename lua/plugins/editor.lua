@@ -122,7 +122,6 @@ return {
             integrations = {
                 diffview = true,
             },
-            graph_style = "unicode",
             mappings = {
                 popup = {
                     ["F"] = "PullPopup",
